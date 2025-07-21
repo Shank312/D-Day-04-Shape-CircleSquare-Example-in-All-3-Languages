@@ -1,0 +1,23 @@
+
+ PART 1: Comparison Table — OOP in Python, Java, and C++
+
+| **Feature**                | **Python**                                                 | **Java**                                       | **C++**                                                       |
+| -------------------------- | ---------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------- |
+| **Syntax Simplicity**      | Very simple and readable                                   | Verbose, strict typing                         | Verbose, requires manual memory management                    |
+| **Class Definition**       | `class ClassName:`                                         | `public class ClassName {}`                    | `class ClassName {}`                                          |
+| **Constructor**            | `def __init__(self):`                                      | `ClassName() {}`                               | `ClassName() {}`                                              |
+| **Inheritance Syntax**     | `class Child(Parent):`                                     | `class Child extends Parent`                   | `class Child : public Parent`                                 |
+| **Access Specifiers**      | Public by default; `_protected`, `__private` by convention | `public`, `protected`, `private` (mandatory)   | `public:`, `protected:`, `private:` (mandatory)               |
+| **Multiple Inheritance**   | Supported                                                  | Not supported (only via interfaces)            | Supported                                                     |
+| **Method Overriding**      | Yes                                                        | Yes (use `@Override`)                          | Yes (use `virtual` keyword)                                   |
+| **Method Overloading**     | Not directly (can use `*args`)                             | Yes (by parameter type/count)                  | Yes                                                           |
+| **Polymorphism**           | Dynamic typing allows flexible polymorphism                | Static typing + interfaces enable polymorphism | Both compile-time and runtime polymorphism                    |
+| **Encapsulation**          | Weak (name mangling for private)                           | Strong (via modifiers)                         | Strong (via access specifiers)                                |
+| **Abstract Classes**       | Use `abc.ABC` module                                       | Use `abstract` keyword                         | Use pure virtual functions                                    |
+| **Memory Management**      | Automatic (Garbage Collection)                             | Automatic (Garbage Collection)                 | Manual (new/delete or smart pointers)                         |
+| **Compilation**            | Interpreted                                                | Compiled to bytecode (JVM)                     | Fully compiled (to machine code)                              |
+| **Interfaces**             | No direct interfaces (uses duck typing)                    | Yes (`interface`)                              | No direct interface keyword, but similar via abstract classes |
+| **Super Constructor Call** | `super().__init__()`                                       | `super()`                                      | `ParentClass::ParentClass()`                                  |
+
+
+
